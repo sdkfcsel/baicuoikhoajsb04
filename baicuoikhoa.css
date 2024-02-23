@@ -1,0 +1,210 @@
+/*Đoạn CSS của trang đăng nhập*/
+.body1 {
+            font-family: Arial, sans-serif;
+            background-image:url("img4.jpg")
+        }
+        
+        h2 {
+            color: #333;
+            text-align:center;
+        }
+        
+        form {
+            max-width: 400px;
+            margin:auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 6px;
+            box-shadow: #333  2px 2px 2px 2px;
+        }
+                
+        input[type="text"],
+        input[type="radio"]
+        {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .radio-group {
+            display: flex;
+            align-items: center;
+        }
+        
+        .radio-group label {
+            margin-right: 10px;
+        }
+         .radio-group input[type="radio"]
+        {
+            margin-right: 0px;
+        }
+/*Trang chủ */        
+.navigationbar
+{
+     background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        
+}
+.mienbac 
+{
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+}
+.mientrung 
+{
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+}
+.miennam
+{
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+}
+.h1 
+{
+    margin-right: 30px;
+    text-align: center;
+}
+.p 
+{
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+    text-align: center;
+}
+/*Nút quay lại đầu trang*/
+.qldt
+{
+width: 40px;
+height: 40px;
+position: fixed;
+bottom: 10px;
+right:10px;
+border: none;
+background-color:#ff0000;
+color: #fff;
+border-radius: 10px;
+cursor:pointer;        
+}
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .nav a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 5px;
+        background-color: #fff;
+        border-radius: 5px;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .location-card {
+        width: 300px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .location-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .location-card h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        
+      }
+
+      .location-card p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+/*Chân trang*/  
+  footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    margin-top: 40px;
+    border-top: 2px solid #ccc;
+    
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .footer-address {
+    text-align: center;
+  }
+
+  .footer-map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+
+  .footer-social {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+  }

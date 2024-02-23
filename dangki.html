@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thông tin cá nhân</title>
+    <!--Liên kết đến file css -->
+    <link rel="stylesheet" href="baicuoikhoa.css">
+    <script type="text/javascript" src="baicuoikhoa.js"></script>
+</head>
+<body class="body1">
+    <h2>Form đăng ký thông tin cá nhân</h2>
+    <form name="form1" onsubmit="return validateForm()" method="post">
+        <!--Các lựa chọn và điền thông tin-->
+        <label for="ten">Họ và tên:</label>
+        <input type="text" id="ten" name="ten"><br><br>
+        <label for="tuoi">Tuổi:</label>
+        <input type="text" id="tuoi" name="tuoi"><br><br>
+        <label for="sodienthoai">Số điện thoại:</label>
+        <input type="text" id="sodienthoai" name="sodienthoai"><br><br>
+          <div class="radio-group">
+            <label for="gioitinh">Giới tính:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nữ</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Khác</label>
+        </div>
+        <br><br>
+        <!--Chuyển sang trang chủ-->
+        <input type="submit" value="Đăng ký" onclick="page_redirect()">
+    </form> 
+</body>
+</html>
